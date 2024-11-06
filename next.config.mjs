@@ -12,4 +12,10 @@ export default withBundleAnalyzer({
   experimental: {
     optimizePackageImports: ['@mantine/core', '@mantine/hooks'],
   },
+  output: "export",
+  basePath: "/aboutme",
+  images: {
+    unoptimized: true,
+  },
 });
+
