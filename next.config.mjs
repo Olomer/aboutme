@@ -13,7 +13,7 @@ export default withBundleAnalyzer({
     optimizePackageImports: ['@mantine/core', '@mantine/hooks'],
   },
   output: "export",
-  basePath: "/aboutme",
+  basePath: process.env.BASE_PATH,
   images: {
     unoptimized: true,
   },
