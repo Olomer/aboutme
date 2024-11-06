@@ -55,6 +55,7 @@
     "eslint-plugin-testing-library": "^6.2.2",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
+    "next-export-i18n": "^3.0.0",
     "postcss": "^8.4.38",
     "postcss-preset-mantine": "1.17.0",
     "postcss-simple-vars": "^7.0.1",
