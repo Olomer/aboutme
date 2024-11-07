@@ -1,6 +1,14 @@
 {
     "home": "Domů",
     "cv": "Životopis",
+    "cv_experience": "Praxe",
+    "cv_year": "Rok",
+    "cv_position": "Pozice",
+    "cv_employer": "Zaměstnavatel",
+    "cv_content": "Náplň práce",
+    "cv_education": "Vzdělání",
+    "cv_field_of_study": "Studijní obor",
+    "cv_school": "Škola",
     "contacts": "Kontakty",
     "publications": "Publikace",
     "projects": "Projekty"

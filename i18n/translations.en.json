@@ -1,6 +1,14 @@
 {
     "home": "Home",
     "cv": "Curriculum Vitae",
+    "cv_experience": "Experience",
+    "cv_year": "Year",
+    "cv_position": "Position",
+    "cv_employer": "Employer",
+    "cv_content": "Job Content",
+    "cv_education": "Education",
+    "cv_field_of_study": "Field of study",
+    "cv_school": "School",
     "contacts": "Contacts",
     "publications": "Publications",
     "projects": "Projects"

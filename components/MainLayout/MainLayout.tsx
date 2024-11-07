@@ -50,5 +50,4 @@ const MainLayout: React.FC<NavbarProps> = ({ children }) => {
     );
 }
 
-
 export default MainLayout;
