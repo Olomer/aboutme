@@ -2,8 +2,14 @@
 
 import { Image, Text, Group, Title, Grid, TypographyStylesProvider } from "@mantine/core";
 import about from "../data/about/aboutApiService";
+import {
+  useTranslation,
+  LanguageSwitcher,
+  LinkWithLocale
+} from "next-export-i18n";
 
 export default function HomePage() {
+  const { t } = useTranslation();
   const data = about.getAboutData();
 
   return (

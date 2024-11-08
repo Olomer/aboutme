@@ -8,7 +8,6 @@ const i18n = {
     },
     defaultLang: "cs",
     useBrowserDefault: true,
-    // optional property will default to "query" if not set
     languageDataStore: "localStorage",
 };
 
