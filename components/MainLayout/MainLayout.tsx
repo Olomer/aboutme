@@ -32,7 +32,7 @@ const MainLayout: React.FC<NavbarProps> = ({ children }) => {
                     <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" />
                     <Group justify="space-between" style={{ flex: 1 }}>
                         {/* <MantineLogo size={30} /> */}
-                        <Group ml="xl" visibleFrom="sm">
+                        <Group ml="xl" visibleFrom="sm" w="100%">
                             <NavMenu />
                         </Group>
                     </Group>
