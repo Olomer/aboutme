@@ -4,6 +4,7 @@ import React from 'react';
 import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 import { theme } from '../theme';
 import MainLayout from '@/components/MainLayout/MainLayout';
+import { Suspense } from 'react';
 
 export const metadata = {
   title: 'About Me',
@@ -22,9 +23,11 @@ export default function RootLayout({ children }: { children: any }) {
         />
       </head>
       <body>
-        <MantineProvider theme={theme}>
-          <MainLayout>{children}</MainLayout>
-        </MantineProvider>
+        <Suspense fallback={<div>Loading...</div>}>
+          <MantineProvider theme={theme}>
+            <MainLayout>{children}</MainLayout>
+          </MantineProvider>
+        </Suspense>
       </body>
     </html>
   );

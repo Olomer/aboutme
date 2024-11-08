@@ -1,11 +1,8 @@
 'use client';
-import { Button, Group, Image, Stack, UnstyledButton, Title, Center } from "@mantine/core";
+import { Group, Image, Stack, UnstyledButton, Title, Center } from "@mantine/core";
 import {
-    useTranslation,
-    LanguageSwitcher,
-    LinkWithLocale
+    useTranslation
 } from "next-export-i18n";
-import { FacebookShare } from 'react-share-kit';
 
 export default function Contacts() {
     const { t } = useTranslation();

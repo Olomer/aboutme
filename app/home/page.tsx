@@ -1,15 +1,9 @@
 'use client';
 
 import { Image, Text, Group, Title, Grid, TypographyStylesProvider } from "@mantine/core";
-import {
-  useTranslation,
-  LanguageSwitcher,
-  LinkWithLocale
-} from "next-export-i18n";
-import about from "../data/about/aboutApiService"
+import about from "../data/about/aboutApiService";
 
 export default function HomePage() {
-  const { t } = useTranslation();
   const data = about.getAboutData();
 
   return (
