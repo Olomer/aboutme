@@ -6,7 +6,7 @@ import {
     LinkWithLocale
 } from "next-export-i18n";
 import { ReactNode } from 'react';
-import { Experience } from '../data/cv/cvApiService';
+import { Experience } from '../data/cv/cvApiTypes';
 import { Table } from '@mantine/core';
 import { TypographyStylesProvider } from '@mantine/core';
 import { Title } from '@mantine/core';
