@@ -45,7 +45,7 @@ const MainLayout: React.FC<NavbarProps> = ({ children }) => {
                 <NavMenuMobile onClose={toggle} />
             </AppShell.Navbar>
 
-            <AppShell.Main>
+            <AppShell.Main pb={80}>
                 {children}
             </AppShell.Main>
             <AppShell.Footer>
