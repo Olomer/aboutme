@@ -13,6 +13,7 @@ import Link from 'next/link';
 import NavButton from "./NavButton";
 import NavMenu from "./NavMenu";
 import NavMenuMobile from "./NavMenuMobile";
+import { Footer } from "./Footer";
 
 type NavbarProps = {
     children: ReactNode;
@@ -47,6 +48,9 @@ const MainLayout: React.FC<NavbarProps> = ({ children }) => {
             <AppShell.Main>
                 {children}
             </AppShell.Main>
+            <AppShell.Footer>
+                <Footer />
+            </AppShell.Footer>
         </AppShell>
     );
 }
