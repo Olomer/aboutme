@@ -7,8 +7,7 @@ import {
 import cv from "../data/cv/cvApiService";
 import ExperienceTable from "./ExperienceTable";
 import EducationTable from "./EducationTable";
-import { Title } from '@mantine/core';
-import { Center, Box } from '@mantine/core';
+import { Center, Box, Grid, Title, Space, Flex } from '@mantine/core';
 import SkillTable from "./SkillTable";
 import LanguageTable from "./LanguageTable";
 import ActivityTable from "./ActivityTable";
@@ -24,21 +23,21 @@ export default function Cv() {
     const projects = cv.getProjectData();
 
     return (
-        <>
+        <Flex direction="column" mx={{ md: "10%" }}>
             <Center><Title order={1}>{t('cv')}</Title></Center>
-            <br />
+            <Space h="md" />
             <ExperienceTable data={experiences} />
-            <br />
+            <Space h="md" />
             <EducationTable data={educations} />
-            <br />
+            <Space h="md" />
             <SkillTable data={skills} />
-            <br />
+            <Space h="md" />
             <LanguageTable data={languages} />
-            <br />
+            <Space h="md" />
             <ActivityTable data={activities} />
-            <br />
+            <Space h="md" />
             <ProjectTable data={projects} />
-        </>
+        </Flex>
     );
 }
 
