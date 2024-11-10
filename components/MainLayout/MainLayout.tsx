@@ -12,6 +12,7 @@ import {
 import Link from 'next/link';
 import NavButton from "./NavButton";
 import NavMenu from "./NavMenu";
+import NavMenuMobile from "./NavMenuMobile";
 
 type NavbarProps = {
     children: ReactNode;
@@ -40,7 +41,7 @@ const MainLayout: React.FC<NavbarProps> = ({ children }) => {
             </AppShell.Header>
 
             <AppShell.Navbar py="md" px={4}>
-                <NavMenu />
+                <NavMenuMobile onClose={toggle} />
             </AppShell.Navbar>
 
             <AppShell.Main>
