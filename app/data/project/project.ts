@@ -8,16 +8,16 @@ export const work_projects_cze: Array<WorkProject> = [
         year: "2014-dosud",
         technologies: "React.js, TypeScript, ASP.NET, C#, POSTGRES, Ollama, Python, Docker",
         imagePath: "images/evalme.png",
-        url: undefined
+        url: "https://gitlab.com/Olomer/code-evaluation"
     },
     {
         name: "Mapování vnitřního prostoru budovy pomocí dronu",
         description: "Disertační práce se zabývá tvorbou metodického rámce v oblasti mapování vnitřních prostorů budovy za pomocí dronu, jehož součástí má být detekce objektů v obrazu a autonomní navigace. Po úvodních částech a také popisu dronu včetně jeho potenciálních hardwarových rozšíření, je problematice věnována rešerše, která je rozdělená na tři hlavní části: mapování, detekce objektů a autonomní navigace. Cílem práce je pak návrh mapovacího systému, který do sebe integruje zmíněné tři oblasti, dále tento systém implementovat a ověřit za účelem vytvoření metodického rámce. V práci je věnován prostor tomu, jak při takovém vývoji postupovat, s jakými omezeními se lze setkat a jaké výstupy očekávat. V poslední části textu je definován metodický rámec, který vznikl na základě dlouhodobého vývoje zmíněného mapovacího systému. Mezi hlavní přínos této práce se řadí právě definovaný metodický rámec, jelikož ve všech třech oblastech existuje řada algoritmů či systémů, které se odlišují ve výstupech dat nebo využitých senzorických zařízeních. Pomocí vytvořeného rámce se lze v problematikách snadněji zorientovat, zvolit si vhodné instrumenty pro konkrétní zaměření a následně je možné podle něj postupovat a implementovat klíčové prvky vyvíjeného mapovacího systému.",
-        employer: "Ostravská univerzita",
+        employer: "Osobní projekt",
         year: "2017-2024",
-        technologies: "ROS, Python",
+        technologies: "ROS, Python, YOLO",
         imagePath: "images/mapping.jpeg",
-        url: "https://turista.silherovice.eu/model-fountain"
+        url: "https://gitlab.com/Olomer/drone-indoor-mapping"
     },
     {
         name: "Fotogrammetrie - Šilheřovice",
@@ -103,7 +103,7 @@ export const work_projects_cze: Array<WorkProject> = [
     {
         name: "Ovládání dronu pomocí gest",
         description: "Diplomová práce na téma ovládání dronu pomocí gest.",
-        employer: "Ostravská univerzita",
+        employer: "Osobní projekt",
         year: "2015-2017",
         technologies: "OpenCV, .NET, WPF, C#, JavaScript, Node.js",
         imagePath: "images/drone_controll.jpg",
