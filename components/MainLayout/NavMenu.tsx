@@ -7,6 +7,7 @@ import {
 } from "next-export-i18n";
 import React from "react";
 import { Avatar, Grid, Group } from '@mantine/core';
+import { ColorSchemeToggle } from "../ColorSchemeToggle/ColorSchemeToggle";
 
 export default function NavMenu() {
     const { t } = useTranslation();
@@ -27,6 +28,7 @@ export default function NavMenu() {
                     <Group>
                         <LanguageSwitcher lang="cs"><Avatar color="blue" radius="xl">CZ</Avatar></LanguageSwitcher>
                         <LanguageSwitcher lang="en"><Avatar color="red" radius="xl">EN</Avatar></LanguageSwitcher>
+                        <ColorSchemeToggle />
                     </Group>
                 </nav>
             </Grid.Col>
