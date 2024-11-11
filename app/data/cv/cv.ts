@@ -115,31 +115,32 @@ export const languages_eng: Array<Language> = [
 
 export const skills_cze: Array<Skill> = [
     {
-        category: "Základní",
-        skills: "Strojové učení, stereofotogrammetrie a 3D modelování, práce s rastrovou a vektorovou grafikou, RabbitMQ, SQL, Oracle, Angular, Bootstrap, Node.js, C++."
+        category: "Aktivně užívané",
+        skills: "ASP.NET/Core, C#, Entity Framework, REST API, Python, ROS, Ollama, HTML, CSS, MUI, React, TypeScript."
     },
     {
         category: "Pokročilé",
         skills: "Java, Kotlin, Jetpack Compose, Swift, NativeScript, programování pro iOS a Android, správa Linux serveru."
     },
     {
-        category: "Aktivně užívané",
-        skills: "ASP.NET/Core, C#, Entity Framework, REST API, Python, ROS, Ollama, HTML, CSS, MUI, React, TypeScript."
+        category: "Základní",
+        skills: "Strojové učení, stereofotogrammetrie a 3D modelování, práce s rastrovou a vektorovou grafikou, RabbitMQ, SQL, Oracle, Angular, Bootstrap, Node.js, C++."
     },
 ];
 
 export const skills_eng: Array<Skill> = [
     {
-        category: "Basic",
-        skills: "Machine learning, stereophotogammetry and 3D modeling, working with raster and vector graphics, RabbitMQ, SQL, Oracle, Angular, Bootstrap, Node.js, C++."
+        category: "Actively used",
+        skills: "ASP.NET/Core, C#, Entity Framework, REST API, Python, ROS, Ollama, HTML, CSS, MUI, React, TypeScript."
     },
+
     {
         category: "Advanced",
         skills: "Java, Kotlin, Jetpack Compose, Swift, NativeScript, programming for iOS and Android, Linux server administration."
     },
     {
-        category: "Actively used",
-        skills: "ASP.NET/Core, C#, Entity Framework, REST API, Python, ROS, Ollama, HTML, CSS, MUI, React, TypeScript."
+        category: "Basic",
+        skills: "Machine learning, stereophotogammetry and 3D modeling, working with raster and vector graphics, RabbitMQ, SQL, Oracle, Angular, Bootstrap, Node.js, C++."
     },
 ];
 
