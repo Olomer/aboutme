@@ -7,7 +7,7 @@ import {
 import React from "react";
 import project from "../data/project/projectApiService";
 import ProjectCard from "@/components/ProjectCard/ProjectCard";
-import { Group, Image, Stack, UnstyledButton, Title, Center } from "@mantine/core";
+import { Group, Image, Stack, UnstyledButton, Title, Center, Flex } from "@mantine/core";
 
 export default function Projects() {
     const { t } = useTranslation();
@@ -16,10 +16,11 @@ export default function Projects() {
     return (
         <Stack>
             <Center><Title order={1}>{t('projects')}</Title></Center>
-            {projects.map((project, index) => (
-                <ProjectCard key={index} workProject={project} />
-            ))}
-
+            <Flex gap="xl" justify="center" wrap="wrap">
+                {projects.map((project, index) => (
+                    <ProjectCard key={index} workProject={project} />
+                ))}
+            </Flex>
         </Stack>
     );
 }

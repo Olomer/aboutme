@@ -22,8 +22,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ workProject }) => {
                 <Card.Section>
                     <Image
                         src={workProject.imagePath}
-                        height={160}
-                    />
+                        height={160} />
                 </Card.Section>
                 <Group justify="space-between" mt="md" mb="xs">
                     <Text fw={500}>{workProject.name}</Text>
@@ -33,7 +32,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ workProject }) => {
                     <Text size="sm">{t('cv_employer') + ":"}</Text>
                     <Text size="sm" c="dimmed">{workProject.employer}</Text>
                 </Group>
-                <Text size="sm" c="dimmed">
+                <Text size="sm" c="dimmed" lineClamp={6}>
                     {workProject.description}
                 </Text>
                 <Group justify="space-between" mt="md" mb="xs">
@@ -41,9 +40,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ workProject }) => {
                     <Text size="sm" c="dimmed" fs="italic">{workProject.technologies}</Text>
                 </Group>
                 <Center>
-                    <Button component="a" href={workProject.url} target="_blank">
-                        <Text size="lg">{t('projects_url')}</Text>
-                    </Button>
+                    {workProject.url && (
+                        <Button component="a" href={workProject.url} target="_blank">
+                            <Text size="lg">{t('projects_url')}</Text>
+                        </Button>
+                    )}
                 </Center>
             </Card>
         </>
