@@ -23,5 +23,7 @@
     "cv_name": "Název",
     "contacts": "Kontakty",
     "publications": "Publikace",
-    "projects": "Projekty"
+    "projects": "Projekty",
+    "projects_url": "Odkaz",
+    "projects_tech": "Technologie"
 }

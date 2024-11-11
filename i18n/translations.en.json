@@ -23,5 +23,7 @@
     "cv_name": "Name",
     "contacts": "Contacts",
     "publications": "Publications",
-    "projects": "Projects"
+    "projects": "Projects",
+    "projects_url": "Link",
+    "projects_tech": "Technologies"
 }
